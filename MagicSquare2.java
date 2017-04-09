@@ -15,7 +15,7 @@ public class MagicSquare2 {
 		for(int i = 0; i < FourTimesFour.length ; i++){
 			for(int j = 0; j < FourTimesFour.length ; j++){
 				row[i] += FourTimesFour[i][j];
-				col[i] += FourTimesFour[j][i];
+				col[j] += FourTimesFour[j][i];
 			}
 		}
 		System.out.println("\t\t\t\t"+row[0]);
