@@ -26,7 +26,7 @@ public class MagicSquares {
 			for(int i = 0; i < FourTimesFour.length ; i++){
 				for(int j = 0; j < FourTimesFour.length ; j++){
 					row[i] += Integer.parseInt(FourTimesFour[i][j]);
-					col[i] += Integer.parseInt(FourTimesFour[j][i]);
+					col[j] += Integer.parseInt(FourTimesFour[j][i]);
 				}
 			}
 
