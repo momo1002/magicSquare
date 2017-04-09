@@ -4,7 +4,6 @@ public class MagicSquare3 {
 		
 		int[] row = new int[4];
 		int[] col = new int[4];
-		int k =0;
 		
 		String[][] FourTimesFour;
 		FourTimesFour = new String[][]{
@@ -26,8 +25,8 @@ public class MagicSquare3 {
 		System.out.println("\t\t\t\t\t"+row[3]);
 
 		System.out.print(col[0] +" ");
-		System.out.print(col[1]+" ");
-		System.out.print(col[2]+" ");
+		System.out.print(col[1] +" ");
+		System.out.print(col[2] +" ");
 		System.out.print(col[3]);
 	}
 
