@@ -4,7 +4,7 @@ public class MagicSquare4 {
 
 		int[] row = new int[4];
 		int[] col = new int[4];
-		int k=0;
+		int k = 0;
 		int l = 0;
 		boolean resultC = true;
 		boolean resultR = true;
@@ -26,7 +26,7 @@ public class MagicSquare4 {
 			for(int i = 0; i < FourTimesFour.length ; i++){
 				for(int j = 0; j < FourTimesFour.length ; j++){
 					row[i] += Integer.parseInt(FourTimesFour[i][j]);
-					col[i] += Integer.parseInt(FourTimesFour[j][i]);
+					col[j] += Integer.parseInt(FourTimesFour[j][i]);
 				}
 			}
 
