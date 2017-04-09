@@ -16,7 +16,7 @@ public class MagicSquare3 {
 		for(int i = 0; i < FourTimesFour.length ; i++){
 			for(int j = 0; j < FourTimesFour.length ; j++){
 				row[i] += Integer.parseInt(FourTimesFour[i][j]);
-				col[i] += Integer.parseInt(FourTimesFour[j][i]);
+				col[j] += Integer.parseInt(FourTimesFour[j][i]);
 			}
 		}
 		System.out.println("\t\t\t\t\t"+row[0]);
